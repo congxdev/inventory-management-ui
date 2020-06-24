@@ -3,8 +3,6 @@
 # Declare variables to be passed into your templates.
 global: {}
 
-hostApi: inventory-management-bff:80
-
 replicaCount: 1
 logLevel: "debug"
 
@@ -44,6 +42,6 @@ vcsInfo:
 
 partOf: inventory
 
-connectsTo: inventory-management-bff-solution
+connectsTo: inventory-management-bff
 
 runtime: js
